@@ -16,17 +16,17 @@ const NavComponent = () => {
         <Navbar.Toggle aria-controls="navbarNavDropdown" />
         <Navbar.Collapse id="navbarNavDropdown">
           <Nav className="ms-auto">
-            <Nav.Link as={Link} to="/" active>Coach</Nav.Link>
+            <Nav.Link as={Link} to="/coach" active>Coach</Nav.Link>
             <Nav.Link as={Link} to="/club">Club</Nav.Link>
             <NavDropdown as={Link} to="/Services" title="Services" id="nav-dropdown">
-              <NavDropdown.Item as={Link} to="/Booking">Book a court</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/services/Book a training session">Book a training session</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/ticket">Buy a basketball tournament ticket</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/services/Organize a basketball tournament
-">Organize a basketball tournament
-</NavDropdown.Item>
+            <NavDropdown.Item as={Link} to="/Services">tous les services</NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item as={Link} to="/Booking">reserver un terrain</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/Training">session d'entrainement </NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/Tickett">ticket de tournoi</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/Tournament">tournoi de basketball</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link as={Link} to="/location">Location</Nav.Link>
+            <Nav.Link as={Link} to="/Location">Location</Nav.Link>
             <Nav.Link as={Link} to="/Contact">Contact us</Nav.Link>
           </Nav>
         </Navbar.Collapse>

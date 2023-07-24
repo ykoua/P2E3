@@ -1,9 +1,11 @@
 import { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
+import { useTranslation } from 'react-i18next';
 import { Card } from 'react-bootstrap';
 import Container from 'react-bootstrap/Container';
 function Home() {
   const [index, setIndex] = useState(0);
+  const { t } = useTranslation();
 
   const handleSelect = (selectedIndex) => {
     setIndex(selectedIndex);
@@ -19,7 +21,7 @@ function Home() {
         <div className="col-md-6">
           <Card.Body className="text-center">
             <Card.Text>
-              Los Santos Basketball club est un club qui a été fondé en 1990 par Santos Angelo, le but principal est de pouvoir créer une équipe qui pourra représenter son pays et aussi de donner la chance aux jeunes de pouvoir s'épanouir et de commencer une carrière s'ils le veulent.
+            <p>{t('ex1')}</p>
             </Card.Text>
           </Card.Body>
         </div>
@@ -29,32 +31,33 @@ function Home() {
     <Carousel activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item>
         <Container className="d-flex align-items-center justify-content-center" style={{ height: '50vh', backgroundColor: '#1861A5' }}>
-          <h1>First slide</h1>
+          <h1>{t('a')}</h1>
         </Container>
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>martin</h3>
+          <p> {t('d1')}</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <Container className="d-flex align-items-center justify-content-center" style={{ height: '50vh', backgroundColor: '#1861A5' }}>
-          <h1>Second slide</h1>
+          <h1>{t('b')}</h1>
         </Container>
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3>karl</h3>
+          <p>{t('d')}</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <Container className="d-flex align-items-center justify-content-center" style={{height: '50vh', backgroundColor: '#1861A5' }}>
-          <h1>Third slide</h1>
+          <h1>{t('c')}</h1>
         </Container>
         <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          <h3>ahmoud</h3>
+          <p>{t('d2')}</p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
+    
 
     </>
      

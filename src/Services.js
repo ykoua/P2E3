@@ -6,7 +6,7 @@ const Services = () => {
   return (
     <div>
       <div style={{ backgroundColor: '#1861A5', color: 'white', padding: '10px' }}>
-        <h4>OUR SERVICES</h4>
+        <h4>NOS SERVICES</h4>
       </div>
 
       <Card className="mb-6" style={{ maxWidth: '100%' }}>
@@ -16,11 +16,11 @@ const Services = () => {
         </div>
         <div className="col-md-6">
           <Card.Body className="text-center">
-              <Card.Title>Book a court</Card.Title>
+              <Card.Title>louer un terrain</Card.Title>
               <Card.Text>
-                Some quick example text to build on the card title and make up the bulk of the card's content.
+                venez voir et louer par la meme occasion nos superbe terrains interieur comme exterieur
               </Card.Text>
-              <Button variant="primary">See prices</Button>
+              <Button variant="primary">voir prix</Button>
             </Card.Body>
           </div>
         </div>
@@ -33,11 +33,11 @@ const Services = () => {
         </div>
         <div className="col-md-6">
           <Card.Body className="text-center">
-              <Card.Title>Book a training session</Card.Title>
+              <Card.Title>reserver une session d'entrainement</Card.Title>
               <Card.Text>
-                Some quick example text to build on the card title and make up the bulk of the card's content.
+                nos entraineurs sont pret a vous aider a atteindre vos objectif dans votre carriere de basketeur
               </Card.Text>
-              <Button variant="primary">See prices</Button>
+              <Button variant="primary">voir prix</Button>
             </Card.Body>
           </div>
         </div>
@@ -50,11 +50,11 @@ const Services = () => {
         </div>
         <div className="col-md-6">
           <Card.Body className="text-center">
-              <Card.Title>Buy a basketball tournament ticket</Card.Title>
+              <Card.Title>acheter un ticket de tournoi de basketball</Card.Title>
               <Card.Text>
-                Some quick example text to build on the card title and make up the bulk of the card's content.
+                Assistez a nos tournois de basketball en direct. ressentez les emotions d'un vrai match en vie reel.
               </Card.Text>
-              <Button variant="primary">See prices</Button>
+              <Button variant="primary">voir prix</Button>
             </Card.Body>
           </div>
         </div>
@@ -69,11 +69,11 @@ const Services = () => {
         </div>
         <div className="col-md-6">
           <Card.Body className="text-center">
-              <Card.Title>Organize a basketball tournament</Card.Title>
+              <Card.Title>organiser un tournoi de basketballt</Card.Title>
               <Card.Text>
-                Some quick example text to build on the card title and make up the bulk of the card's content.
+                organisez un tournoi de basket et venez montrer vos talents sur le terrain et que peut etre vous aurez la chances d'etre recruter dans un de nos prestigieux club.
               </Card.Text>
-              <Button variant="primary">See prices</Button>
+              <Button variant="primary">voir prix</Button>
             </Card.Body>
           </div>
         </div>
