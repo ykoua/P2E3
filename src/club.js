@@ -16,9 +16,11 @@ const club = () => {
         </div>
         <div className="col-md-6">
           <Card.Body className="text-center">
-              <Card.Title>Book a court</Card.Title>
+              <Card.Title>Les Faucons Dorés</Card.Title>
               <Card.Text>
-                Some quick example text to build on the card title and make up the bulk of the card's content.
+              Le club de basket des Faucons Dorés est réputé pour son jeu offensif flamboyant et sa rapidité sur le terrain. Leurs joueurs sont agiles et vifs, 
+              capables de marquer des paniers spectaculaires en un clin d'œil. Ils sont surnommés "Les Faucons Dorés" en raison de leur détermination à atteindre 
+              de nouveaux sommets et à briller comme des étoiles lors de chaque match.
               </Card.Text>
               <Button variant="primary">join the team</Button>
             </Card.Body>
@@ -33,9 +35,10 @@ const club = () => {
         </div>
         <div className="col-md-6">
           <Card.Body className="text-center">
-              <Card.Title>Book a training session</Card.Title>
+              <Card.Title>Les Tigres Éclairs</Card.Title>
               <Card.Text>
-                Some quick example text to build on the card title and make up the bulk of the card's content.
+              Ce club de basket incarne la puissance et la force sur le terrain. Leurs joueurs sont réputés pour leur endurance et leur habileté à marquer des paniers difficiles. 
+              Ils ont une approche tactique solide et sont considérés comme des "Tigres Éclairs" en raison de leur capacité à bondir et à marquer rapidement avant que leurs adversaires ne puissent réagir.
               </Card.Text>
               <Button variant="primary">join the team</Button>
             </Card.Body>
@@ -50,9 +53,11 @@ const club = () => {
         </div>
         <div className="col-md-6">
           <Card.Body className="text-center">
-              <Card.Title>Buy a basketball tournament ticket</Card.Title>
+              <Card.Title>Les Étoiles Filantes</Card.Title>
               <Card.Text>
-                Some quick example text to build on the card title and make up the bulk of the card's content.
+              Le club des Étoiles Filantes est connu pour son jeu aérien et sa capacité à défier la gravité.
+              Leurs joueurs sont des experts en dunks et en sauts acrobatiques qui les font paraître comme des étoiles filantes traversant le ciel.
+              Leur style de jeu spectaculaire attire les foules et crée une ambiance électrique dans les stades.
               </Card.Text>
               <Button variant="primary">join the team</Button>
             </Card.Body>
@@ -69,9 +74,10 @@ const club = () => {
         </div>
         <div className="col-md-6">
           <Card.Body className="text-center">
-              <Card.Title>Organize a basketball tournament</Card.Title>
+              <Card.Title>Les Dragons de Feu</Card.Title>
               <Card.Text>
-                Some quick example text to build on the card title and make up the bulk of the card's content.
+              Ce club de basket est synonyme de passion et d'intensité. Leurs joueurs sont déterminés à brûler leurs adversaires sur le terrain avec leur jeu explosif. 
+              Le nom "Les Dragons de Feu" est choisi pour leur esprit combatif et leur capacité à rallumer le feu de la compétition dans chaque match.
               </Card.Text>
               <Button variant="primary">join the team</Button>
             </Card.Body>
