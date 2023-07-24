@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/P2E3/static/css/main.5e4d3b5d.css",
-    "main.js": "/P2E3/static/js/main.79fd690f.js",
+    "main.js": "/P2E3/static/js/main.a1957ac0.js",
     "static/media/tournoi3.jpeg": "/P2E3/static/media/tournoi3.0979bd946e0235887c2e.jpeg",
     "static/media/basketball adul 1.png": "/P2E3/static/media/basketball adul 1.9686cc2d47b4bacd800b.png",
     "static/media/basketball adul 0-2.png": "/P2E3/static/media/basketball adul 0-2.41254fe06bc1ac8773c2.png",
@@ -34,10 +34,10 @@
     "static/media/standard.jpg": "/P2E3/static/media/standard.710eac958984c2ac05c3.jpg",
     "index.html": "/P2E3/index.html",
     "main.5e4d3b5d.css.map": "/P2E3/static/css/main.5e4d3b5d.css.map",
-    "main.79fd690f.js.map": "/P2E3/static/js/main.79fd690f.js.map"
+    "main.a1957ac0.js.map": "/P2E3/static/js/main.a1957ac0.js.map"
   },
   "entrypoints": [
     "static/css/main.5e4d3b5d.css",
-    "static/js/main.79fd690f.js"
+    "static/js/main.a1957ac0.js"
   ]
 }
